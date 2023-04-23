@@ -21,3 +21,8 @@ class Person(private val name: String, private var age: Int, hasBike: Boolean) {
 // Note: 
 // 'val' and 'cost val' both are read-only
 // 'val' is known at runtime but 'const val' is known at compile time  (similar to 'const' vs 'constepr' in c++)
+// Use UPPER_SNAKE_CASE for 'const val' and it should be defined at the top level, outside of any function boudary.
+
+
+
+//-----------------------
