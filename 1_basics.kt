@@ -21,7 +21,15 @@ fun main (args: Array<String>) {
         println(remark.uppercase())
     }
 
-
+    //Special char
+    val newLineTab = "\n\t"
+    println("Is whitespace blank? ${newLineTab.isBlank()}")
+    println("Is whitespace empty? ${newLineTab.isEmpty()}")
+    
+    //Compare string
+    println("ABC" == "abc")    //return false
+    println("ABC".equals("abc", ignoreCase = true))   //return true
+    
     //Collection (mutable vs non-mutable)
     val allNames = listOf("John", "Mahesh", "Smith")    //Non-mutable list (like Python tuple)
     println("(Example of collections): $allNames")
