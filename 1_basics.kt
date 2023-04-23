@@ -29,6 +29,7 @@ fun main (args: Array<String>) {
     //Compare string
     println("ABC" == "abc")    //return false
     println("ABC".equals("abc", ignoreCase = true))   //return true
+    println("ABC" === "ABC")  // referential equality check, tripple equals to, means both poining same object 
     
     //Collection (mutable vs non-mutable)
     val allNames = listOf("John", "Mahesh", "Smith")    //Non-mutable list (like Python tuple)
