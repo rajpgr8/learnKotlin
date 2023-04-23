@@ -5,7 +5,7 @@ fun main() {
 
 }
 
-class Person(private val name: String, private val age: Int, hasBike: Boolean) {
+class Person(private val name: String, private var age: Int, hasBike: Boolean) {  //name cannot chnaged but age can (val vs var)
 
     private val nickname: String
     init {
