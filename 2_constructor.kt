@@ -17,3 +17,7 @@ class Person(private val name: String, private var age: Int, hasBike: Boolean) {
         return "Name: $nickname, Age: $age"
     }
 }
+
+// Note: 
+// 'val' and 'cost val' both are read-only
+// 'val' is known at runtime but 'const val' is known at compile time  (similar to 'const' vs 'constepr' in c++)
